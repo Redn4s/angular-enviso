@@ -6,6 +6,23 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src=https://widget.enviso.io/loader.js></script>
+  <script>define(['https://widget.enviso.io/build-ts/components/tickets/enviso-ticket-widget-element.js']);</script>
+  <script>define(['https://widget.enviso.io/build-ts/components/common/enviso-style-element.js']);</script>
+  <script>
+    enviso.settings.apiKey = 'A6zhxTpIo0iJlTjETrANNw==';
+    enviso.settings.salesPointId = '1017';
+    enviso.settings.offerId = '';
+    enviso.settings.language = 'en';
+    enviso.settings.testPayment = false;
+  </script>
+  <enviso-style>
+    :host {
+      --enviso-primary-color:#1097D9;
+      --enviso-secondary-color: #1097D9;
+      font-family: 'Century Gothic';
+    }
+  </enviso-style>
 </head>
 <body>
   <app-root></app-root>
